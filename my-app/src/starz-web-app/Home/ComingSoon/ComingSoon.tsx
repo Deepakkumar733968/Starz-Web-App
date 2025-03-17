@@ -1,21 +1,35 @@
 import { ImageCard } from "../../../components/ImageCard/ImageCard";
+import { COMING_SOON_DATA, IComingSoon } from "../../../contents/comingSoon";
 import "./style.css";
 export const ComingSoon = () => {
   return (
     <section className="coming-soon-main">
-      <h2>Coming Soon</h2>
-      <ImageCard
-        link="https://www.starz.com/us/en/"
-        firstHeader="The Best Christmas Pageant Ever"
-        secondHeader="More Info"
-        imageUrl="https://stz1.imgix.net/web/contentId/69942/type/KEY/dimension/1536x2048.jpg?auto=compress,format&w=222&fit=max"
-        className=""
-        headerStyle={{ gap: "40px", width: "200px", top: "40px" }}
-        imageSize={{ width: "222px", height: "296px" }}
-        imageClass=""
-        firstHeaderClass="coming-image-header"
-        secondHeaderClass="coming-image-header"
-      />
+      <div className="header-image">
+        <h2>Coming Soon</h2>
+        <div className="coming-image-card-main">
+          {COMING_SOON_DATA.map((item: IComingSoon, index: number) => (
+            <ImageCard
+              key={index}
+              link={item.link}
+              firstHeader={item.firstHeader}
+              secondHeader={item.secondHeader}
+              imageUrl={item.imageUrl}
+              className=""
+              headerStyle={{
+                gap: "80px",
+                width: "200px",
+                top: "80px",
+                marginLeft: "8px",
+              }}
+              imageSize={{ width: "222px", height: "296px" }}
+              imageDivClass=""
+              imageClass="image-rad"
+              firstHeaderClass="coming-image-header"
+              secondHeaderClass="coming-image-header"
+            />
+          ))}
+        </div>
+      </div>
     </section>
   );
 };

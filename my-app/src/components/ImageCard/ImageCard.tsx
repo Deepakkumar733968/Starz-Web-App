@@ -8,6 +8,7 @@ interface IImageCardDada {
   className: string;
   headerStyle: React.CSSProperties;
   imageSize: React.CSSProperties;
+  imageDivClass: string;
   imageClass: string;
   firstHeaderStyle?: React.CSSProperties;
   secondHeaderStyle?: React.CSSProperties;
@@ -23,6 +24,7 @@ export const ImageCard = ({
   className,
   headerStyle,
   imageSize,
+  imageDivClass,
   imageClass,
   firstHeaderStyle,
   secondHeaderStyle,
@@ -33,7 +35,7 @@ export const ImageCard = ({
     <a href={link} className={`${className} image-card-main`}>
       <div className="position-align" style={headerStyle}>
         <span style={firstHeaderStyle} className={`${firstHeaderClass} span-z`}>
-          {firstHeader}
+          {firstHeader ? firstHeader : ""}
         </span>
         <span
           style={secondHeaderStyle}
@@ -42,8 +44,12 @@ export const ImageCard = ({
           {secondHeader}
         </span>
       </div>
-      <div style={imageSize} className={`${imageClass} image-posction`}>
-        <img src={imageUrl} alt="card-image" className="card-image-size" />
+      <div style={imageSize} className={`${imageDivClass} image-posction`}>
+        <img
+          src={imageUrl}
+          alt="card-image"
+          className={`${imageClass} card-image-size`}
+        />
       </div>
     </a>
   );
