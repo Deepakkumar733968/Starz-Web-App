@@ -1,6 +1,7 @@
 .image-card-main {
   cursor: pointer;
   position: relative;
+  display: inline-block;
 }
 
 .position-align {
@@ -8,9 +9,23 @@
   flex-direction: column;
   text-align: center;
   position: absolute;
+  opacity: 0;
 }
 
 .card-image-size {
   width: 100%;
   height: 100%;
+}
+
+.image-card-main:hover .position-align {
+  opacity: 1;
+  transition: opacity 0.25s ease;
+}
+
+.image-card-main:hover .card-image-size {
+  opacity: 0.2;
+  transition: opacity 0.25s ease;
+}
+.image-card-main:hover .span-z {
+  z-index: 6;
 }

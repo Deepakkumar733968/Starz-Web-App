@@ -32,15 +32,17 @@ export const ImageCard = ({
   return (
     <a href={link} className={`${className} image-card-main`}>
       <div className="position-align" style={headerStyle}>
-        <span style={firstHeaderStyle} className={`${firstHeaderClass}`}>
+        <span style={firstHeaderStyle} className={`${firstHeaderClass} span-z`}>
           {firstHeader}
         </span>
-        <span style={secondHeaderStyle} className={`${secondHeaderClass}`}>
+        <span
+          style={secondHeaderStyle}
+          className={`${secondHeaderClass} span-z`}
+        >
           {secondHeader}
         </span>
       </div>
-
-      <div style={imageSize} className={imageClass}>
+      <div style={imageSize} className={`${imageClass} image-posction`}>
         <img src={imageUrl} alt="card-image" className="card-image-size" />
       </div>
     </a>

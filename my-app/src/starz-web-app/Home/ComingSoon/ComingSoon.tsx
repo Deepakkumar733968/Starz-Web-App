@@ -13,18 +13,6 @@ export const ComingSoon = () => {
         headerStyle={{ gap: "40px", width: "200px", top: "40px" }}
         imageSize={{ width: "222px", height: "296px" }}
         imageClass=""
-        // firstHeaderStyle={{
-        //   fontSize: "20px",
-        //   fontWeight: 700,
-        //   letterSpacing: "1.25px",
-        //   lineHeight: 1.4,
-        // }}
-        // secondHeaderStyle={{
-        //   fontSize: "20px",
-        //   fontWeight: 700,
-        //   letterSpacing: "1.25px",
-        //   lineHeight: 1.4,
-        // }}
         firstHeaderClass="coming-image-header"
         secondHeaderClass="coming-image-header"
       />
