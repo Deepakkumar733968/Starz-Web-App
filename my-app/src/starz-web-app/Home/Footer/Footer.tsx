@@ -14,7 +14,7 @@ import {
 
 export const Footer = () => {
   const renderFooterList = (item: any, index: any) => (
-    <li className="footer-list" key={index}>
+    <li className="footer-list " key={index}>
       <a href={item.link} className="footer-link">
         {item.text}
       </a>

@@ -23,10 +23,11 @@ export const SignUpBanner = () => {
         <FaApple className="banner-image-white apple-img" />
         <FaChromecast className="banner-image-white cast-img" />
       </div>
-      <div>
+      <div className="banner-imge-size">
         <img
           src="https://starz.imgix.net/homepage/devices/full-devices-012725.png?&auto=compress,format"
           alt="banner-image"
+          className="banner-main-image"
         />
       </div>
     </section>
