@@ -1,9 +1,11 @@
 // import './App.css'
 
+import StarzWebApp from "./starz-web-app/page";
+
 function App() {
   return (
     <>
-      <h1>Base App</h1>
+      <StarzWebApp />
     </>
   );
 }
