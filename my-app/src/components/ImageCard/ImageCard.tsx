@@ -14,6 +14,8 @@ interface IImageCardDada {
   secondHeaderStyle?: React.CSSProperties;
   firstHeaderClass?: string;
   secondHeaderClass?: string;
+  newText?: string;
+  newTextClass?: string;
 }
 
 export const ImageCard = ({
@@ -30,6 +32,8 @@ export const ImageCard = ({
   secondHeaderStyle,
   firstHeaderClass,
   secondHeaderClass,
+  newText,
+  newTextClass,
 }: IImageCardDada) => {
   return (
     <a href={link} className={`${className} image-card-main`}>
@@ -51,6 +55,11 @@ export const ImageCard = ({
           className={`${imageClass} card-image-size`}
         />
       </div>
+      {newText && (
+        <div className={`${newTextClass} show-hover`}>
+          <span>{newText}</span>
+        </div>
+      )}
     </a>
   );
 };

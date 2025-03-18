@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <NavBar />
-      {/* <MoviesToday /> */}
+      <MoviesToday />
       <ComingSoon />
       <SignUpBanner />
       <BoldOriginals />

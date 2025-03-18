@@ -4,29 +4,29 @@ export interface ITodayMoviesData {
   link: string;
   firstHeader: string;
   secondHeader: string;
+  newText?: string;
 }
 export const MOVIES_TODAY_DATA: ITodayMoviesData[] = [
   {
-    numberImage:
-      "https://imgstarz.imgix.net/top10/prod/1.png?fit=max&auto=format,compress&w=290&h=360",
+    numberImage: "1",
     movieImage:
       "https://stz1.imgix.net/web/contentId/72035/type/KEY/dimension/1536x2048/lang/en-US?fit=max&auto=format,compress&w=290&h=360",
     link: "",
     firstHeader: "THE KILLER'S GAME",
     secondHeader: "More Info",
+    newText: "New",
   },
   {
-    numberImage:
-      "	https://imgstarz.imgix.net/top10/prod/2.png?fit=max&auto=format,compress&w=290&h=360",
+    numberImage: "2",
     movieImage:
       "https://stz1.imgix.net/web/contentId/71702/type/KEY/dimension/1536x2048/lang/en-US?fit=max&auto=format,compress&w=290&h=360",
     link: "",
     firstHeader: "1992",
     secondHeader: "More Info",
+    newText: "New",
   },
   {
-    numberImage:
-      "https://imgstarz.imgix.net/top10/prod/3.png?fit=max&auto=format,compress&w=290&h=360",
+    numberImage: "3",
     movieImage:
       "https://stz1.imgix.net/web/contentId/69150/type/KEY/dimension/1536x2048/lang/en-US?fit=max&auto=format,compress&w=290&h=360",
     link: "",
@@ -34,17 +34,16 @@ export const MOVIES_TODAY_DATA: ITodayMoviesData[] = [
     secondHeader: "More Info",
   },
   {
-    numberImage:
-      "	https://imgstarz.imgix.net/top10/prod/4.png?fit=max&auto=format,compress&w=290&h=360",
+    numberImage: "4",
     movieImage:
       "https://stz1.imgix.net/web/contentId/72661/type/KEY/dimension/1536x2048/lang/en-US?fit=max&auto=format,compress&w=290&h=360",
     link: "",
     firstHeader: "GREEDY PEOPLE",
     secondHeader: "More Info",
+    newText: "New",
   },
   {
-    numberImage:
-      "https://imgstarz.imgix.net/top10/prod/5.png?fit=max&auto=format,compress&w=290&h=360",
+    numberImage: "5",
     movieImage:
       "https://stz1.imgix.net/web/contentId/66010/type/KEY/dimension/1536x2048/lang/en-US?fit=max&auto=format,compress&w=290&h=360",
     link: "",
@@ -52,8 +51,7 @@ export const MOVIES_TODAY_DATA: ITodayMoviesData[] = [
     secondHeader: "More Info",
   },
   {
-    numberImage:
-      "https://imgstarz.imgix.net/top10/prod/6.png?fit=max&auto=format,compress&w=290&h=360",
+    numberImage: "6",
     movieImage:
       "https://stz1.imgix.net/web/contentId/64984/type/KEY/dimension/1536x2048/lang/en-US?fit=max&auto=format,compress&w=290&h=360",
     link: "",
@@ -61,8 +59,7 @@ export const MOVIES_TODAY_DATA: ITodayMoviesData[] = [
     secondHeader: "More Info",
   },
   {
-    numberImage:
-      "https://imgstarz.imgix.net/top10/prod/7.png?fit=max&auto=format,compress&w=290&h=360",
+    numberImage: "7",
     movieImage:
       "https://stz1.imgix.net/web/contentId/66656/type/KEY/dimension/1536x2048/lang/en-US?fit=max&auto=format,compress&w=290&h=360",
     link: "",
@@ -70,8 +67,7 @@ export const MOVIES_TODAY_DATA: ITodayMoviesData[] = [
     secondHeader: "More Info",
   },
   {
-    numberImage:
-      "	https://imgstarz.imgix.net/top10/prod/8.png?fit=max&auto=format,compress&w=290&h=360",
+    numberImage: "	8",
     movieImage:
       "https://stz1.imgix.net/web/contentId/71748/type/KEY/dimension/1536x2048/lang/en-US?fit=max&auto=format,compress&w=290&h=360",
     link: "",
@@ -79,8 +75,7 @@ export const MOVIES_TODAY_DATA: ITodayMoviesData[] = [
     secondHeader: "More Info",
   },
   {
-    numberImage:
-      "https://imgstarz.imgix.net/top10/prod/9.png?fit=max&auto=format,compress&w=290&h=360",
+    numberImage: "9",
     movieImage:
       "https://stz1.imgix.net/web/contentId/71358/type/KEY/dimension/1536x2048/lang/en-US?fit=max&auto=format,compress&w=290&h=360",
     link: "",
@@ -88,8 +83,7 @@ export const MOVIES_TODAY_DATA: ITodayMoviesData[] = [
     secondHeader: "More Info",
   },
   {
-    numberImage:
-      "https://imgstarz.imgix.net/top10/prod/10.png?fit=max&auto=format,compress&w=290&h=360",
+    numberImage: "10",
     movieImage:
       "https://stz1.imgix.net/web/contentId/71939/type/KEY/dimension/1536x2048/lang/en-US?fit=max&auto=format,compress&w=290&h=360",
     link: "",

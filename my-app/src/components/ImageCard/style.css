@@ -29,3 +29,7 @@
 .image-card-main:hover .span-z {
   z-index: 6;
 }
+
+.image-card-main:hover .show-hover {
+  opacity: 0;
+}
