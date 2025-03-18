@@ -1,6 +1,7 @@
 import { BoldOriginals } from "./BoldOriginals/BoldOriginals";
 import { ComingSoon } from "./ComingSoon/ComingSoon";
 import { Footer } from "./Footer/Footer";
+import { HeaderImage } from "./HeaderImage/HeaderImage";
 import { MoviesToday } from "./MoviesToday/MoviesToday";
 import NavBar from "./NavBar/NavBar";
 import { SignUpBanner } from "./SignUpBanner/SignUpBanner";
@@ -9,6 +10,7 @@ const Home = () => {
   return (
     <>
       <NavBar />
+      <HeaderImage />
       <MoviesToday />
       <ComingSoon />
       <SignUpBanner />

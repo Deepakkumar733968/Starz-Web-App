@@ -2,13 +2,25 @@
   padding: 14px 0;
   height: 74px;
   margin: 0 26px;
-  background-color: blue;
+  /* background-color: blue; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: sticky;
   top: 0;
-  z-index: 16;
+  z-index: 70;
+  transition: background 0.5s linear;
+  background-image: linear-gradient(
+    0deg,
+    rgba(8, 33, 37, 0) 1%,
+    rgba(8, 33, 37, 0.85) 99%
+  );
+}
+
+.fade-in {
+  opacity: 1;
+  animation: fadein 2s;
+  -webkit-animation: fadein 2s;
 }
 
 .web-logo-nav {

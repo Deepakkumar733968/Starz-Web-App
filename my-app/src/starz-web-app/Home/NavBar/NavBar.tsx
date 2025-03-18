@@ -5,7 +5,7 @@ import StarzButton from "../../../components/Button/StarzButton";
 
 export const NavBar = () => {
   return (
-    <nav className="nav-main">
+    <nav className="nav-main fade-in">
       <div className="main-nav-list">
         <div>
           <img
