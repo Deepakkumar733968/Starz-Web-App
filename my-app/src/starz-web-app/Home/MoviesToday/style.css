@@ -72,6 +72,13 @@
   opacity: 0;
 }
 
+.today-div {
+  transition: transform 0.2s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
 .today-card-scale {
   border-radius: 3px;
 }
