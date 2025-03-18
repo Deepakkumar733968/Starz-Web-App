@@ -67,3 +67,7 @@
   font-size: 36px;
   color: #fff;
 }
+
+.no-show-button {
+  opacity: 0;
+}

@@ -9,8 +9,8 @@ interface IButton {
   link?: string;
 }
 const StarzButton = ({ value, className, style, onClick, link }: IButton) => (
-  <a href={link}>
-    <button className={className} style={style} onClick={onClick}>
+  <a href={link} className="starz-button">
+    <button className={`${className}`} style={style} onClick={onClick}>
       {value}
     </button>
   </a>

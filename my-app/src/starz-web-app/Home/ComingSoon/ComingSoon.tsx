@@ -48,11 +48,11 @@ export const ComingSoon = () => {
         <div className="header-image">
           <h2 className="coming-soon-header">Coming Soon</h2>
           <div className="side-button-main">
-            {showLeftArrow && (
-              <button className="add-button-pad" onClick={() => scroll("left")}>
-                <MdArrowBackIos className="button-icon" />
-              </button>
-            )}
+            <button className="add-button-pad" onClick={() => scroll("left")}>
+              <MdArrowBackIos
+                className={showLeftArrow ? "button-icon" : "no-show-button"}
+              />
+            </button>
             <div className="coming-image-card-main" ref={scrollRef}>
               {COMING_SOON_DATA.map((item: IComingSoon, index: number) => (
                 <ImageCard
@@ -76,14 +76,11 @@ export const ComingSoon = () => {
                 />
               ))}
             </div>
-            {showRightArrow && (
-              <button
-                className="add-button-pad"
-                onClick={() => scroll("right")}
-              >
-                <MdArrowForwardIos className="button-icon" />
-              </button>
-            )}
+            <button className="add-button-pad" onClick={() => scroll("right")}>
+              <MdArrowForwardIos
+                className={showRightArrow ? "button-icon" : "no-show-button"}
+              />
+            </button>
           </div>
         </div>
       </div>
