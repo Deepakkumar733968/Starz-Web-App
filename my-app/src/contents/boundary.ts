@@ -3,7 +3,7 @@ export interface IBoundaryData {
   link: string;
   firstHeader: string;
   secondHeader: string;
-  cardDetail?: ICardDetail;
+  cardDetail: ICardDetail;
 }
 
 export interface ICardDetail {

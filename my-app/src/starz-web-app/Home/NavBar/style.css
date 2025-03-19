@@ -1,20 +1,25 @@
 .nav-main {
-  padding: 14px 0;
-  height: 74px;
-  margin: 0 26px;
-  /* background-color: blue; */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 70;
+  display: block;
+  width: 100%;
   transition: background 0.5s linear;
   background-image: linear-gradient(
     0deg,
     rgba(8, 33, 37, 0) 1%,
     rgba(8, 33, 37, 0.85) 99%
   );
+}
+
+.nav-div-main {
+  padding: 14px 0;
+  height: 74px;
+  margin: 0 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 70;
 }
 
 .fade-in {

@@ -210,3 +210,534 @@ export const BOUNDARY_BREAKING_DATA: IBoundaryData[] = [
     },
   },
 ];
+
+////////
+
+
+import { ImageCard } from "../../../components/ImageCard/ImageCard";
+import {
+  BOUNDARY_BREAKING_DATA,
+  IBoundaryData,
+} from "../../../contents/boundary";
+import "./style.css";
+import {
+  MdArrowBackIos,
+  MdArrowForwardIos,
+  MdOndemandVideo,
+} from "react-icons/md";
+export const Boundary = () => {
+  return (
+    <section className="boundary-main">
+      <div className="boundary-sec-main">
+        <div>
+          <h2 className="boundary-header">Boundary Breaking Originals</h2>
+          <h4 className="handle-header">Can You Handle The Heat?</h4>
+        </div>
+        {/* image section */}
+        <div className="boundary-card-align">
+          {BOUNDARY_BREAKING_DATA.map((item: IBoundaryData, index: number) => (
+            <ImageCard
+              key={index}
+              link={item.link}
+              firstHeader={item.firstHeader}
+              secondHeader={item.secondHeader}
+              imageUrl={item.movieImage}
+              className=""
+              headerStyle={{
+                gap: "60px",
+                width: "300px",
+                top: "60px",
+                left: "30px",
+                marginLeft: "8px",
+              }}
+              imageSize={{ width: "386px", height: "236px" }}
+              imageDivClass="boundary-image-div"
+              imageClass="boundary-scroll-image"
+              firstHeaderClass="boundary-first-header"
+              secondHeaderClass="boundary-second-header"
+            />
+          ))}
+        </div>
+        {/* arrow button section */}
+        <div className="add-boundary-flex">
+          <button className="boundary-arrow-button">
+            <MdArrowBackIos />
+          </button>
+          <div className="boundary-bottom-description-main">
+            <a href="" className="boundary-image-card-title">
+              BMF
+            </a>
+            <p className="boundary-image-card-description">
+              “BMF” follows the story of two brothers who created the “Black
+              Mafia Family,” the most prominent drug distribution network in
+              American history.
+              <a href="" className="learn-more">
+                LEARN MORE
+              </a>
+            </p>
+            <div className="hero-trailer-boundary">
+              <MdOndemandVideo className="demand-video" />
+              <a href="" className="trailer-text-sml">
+                <span>TRAILER</span>
+              </a>
+            </div>
+          </div>
+          <button className="boundary-arrow-button">
+            <MdArrowForwardIos />
+          </button>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+
+
+.boundary-main {
+  background: #000
+    url(https://static-web-images.imgix.net/web-images/common/background-no-image-1440.jpg?auto=compress,format)
+    no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: transparent;
+  padding-top: 60px;
+}
+
+.boundary-header {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.handle-header {
+  color: #d1d3d4;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.boundary-arrow-button {
+  display: block;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.boundary-sec-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boundary-card-align {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  position: relative;
+  overscroll-behavior: contain;
+  user-select: none;
+  gap: 10px;
+}
+
+.add-boundary-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boundary-image-card-title {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1.125px;
+  font-weight: 400;
+  text-transform: none;
+  opacity: 1;
+  pointer-events: inherit;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.5s, color 0.5s;
+  padding-bottom: 8px;
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.boundary-image-card-description {
+  color: #d1d3d4;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.learn-more {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.25;
+  margin-left: 4px;
+  transition: opacity 0.5s, color 0.5s;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.hero-trailer-boundary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.demand-video {
+  width: 27px;
+  height: 27px;
+  color: rgb(210, 255, 0);
+  padding-right: 8px;
+}
+
+.trailer-text-sml {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.boundary-bottom-description-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin-top: 24px;
+}
+
+.trailer-text-sml span {
+  letter-spacing: 2px;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  &:hover {
+    color: #d1d3d4;
+    transition: color 0.1s ease-in-out;
+  }
+}
+
+.boundary-scroll-image {
+  border-radius: 3px;
+}
+
+.boundary-first-header {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.25px;
+  line-height: 1.4;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.boundary-second-header {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.56px;
+  line-height: 1.44;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.boundary-image-div {
+  transition: transform 0.2s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+
+//last edited:
+
+
+import { ImageCard } from "../../../components/ImageCard/ImageCard";
+import {
+  BOUNDARY_BREAKING_DATA,
+  IBoundaryData,
+} from "../../../contents/boundary";
+import "./style.css";
+import {
+  MdArrowBackIos,
+  MdArrowForwardIos,
+  MdOndemandVideo,
+} from "react-icons/md";
+export const Boundary = () => {
+  return (
+    <section className="boundary-main">
+      <div className="boundary-sec-main">
+        <div>
+          <h2 className="boundary-header">Boundary Breaking Originals</h2>
+          <h4 className="handle-header">Can You Handle The Heat?</h4>
+        </div>
+        <div className="boundary-card-align">
+          {BOUNDARY_BREAKING_DATA.map((item: IBoundaryData, index: number) => (
+            <div>
+              <ImageCard
+                key={index}
+                link={item.link}
+                firstHeader={item.firstHeader}
+                secondHeader={item.secondHeader}
+                imageUrl={item.movieImage}
+                className=""
+                headerStyle={{
+                  gap: "60px",
+                  width: "300px",
+                  top: "60px",
+                  left: "30px",
+                  marginLeft: "8px",
+                }}
+                imageSize={{ width: "386px", height: "236px" }}
+                imageDivClass="boundary-image-div"
+                imageClass="boundary-scroll-image"
+                firstHeaderClass="boundary-first-header"
+                secondHeaderClass="boundary-second-header"
+              />
+              <div className="add-boundary-flex">
+                <div className="boundary-bottom-description-main">
+                  <a href="" className="boundary-image-card-title">
+                    {item.cardDetail?.movieTitle}
+                  </a>
+                  <p className="boundary-image-card-description">
+                    {item.cardDetail?.description}
+                    <a href="" className="learn-more">
+                      LEARN MORE
+                    </a>
+                  </p>
+                  <div className="hero-trailer-boundary">
+                    <MdOndemandVideo className="demand-video" />
+                    <a href="" className="trailer-text-sml">
+                      <span>TRAILER</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="button-position-main">
+          <button className="boundary-arrow-button">
+            <MdArrowBackIos />
+          </button>
+          <button className="boundary-arrow-button">
+            <MdArrowForwardIos />
+          </button>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+.boundary-main {
+  background: #000
+    url(https://static-web-images.imgix.net/web-images/common/background-no-image-1440.jpg?auto=compress,format)
+    no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: transparent;
+  padding-top: 60px;
+  position: relative;
+}
+
+.boundary-header {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.handle-header {
+  color: #d1d3d4;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.boundary-arrow-button {
+  display: block;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.boundary-sec-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boundary-card-align {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  position: relative;
+  overscroll-behavior: contain;
+  user-select: none;
+  gap: 10px;
+}
+
+.add-boundary-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boundary-image-card-title {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1.125px;
+  font-weight: 400;
+  text-transform: none;
+  opacity: 1;
+  pointer-events: inherit;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.5s, color 0.5s;
+  padding-bottom: 8px;
+  text-align: center;
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.boundary-image-card-description {
+  color: #d1d3d4;
+  font-size: 16px;
+  font-family: Averta, Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.learn-more {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.25;
+  margin-left: 4px;
+  transition: opacity 0.5s, color 0.5s;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.hero-trailer-boundary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.demand-video {
+  width: 27px;
+  height: 27px;
+  color: rgb(210, 255, 0);
+  padding-right: 8px;
+}
+
+.trailer-text-sml {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.boundary-bottom-description-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.trailer-text-sml span {
+  letter-spacing: 2px;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  &:hover {
+    color: #d1d3d4;
+    transition: color 0.1s ease-in-out;
+  }
+}
+
+.boundary-scroll-image {
+  border-radius: 3px;
+}
+
+.boundary-first-header {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.25px;
+  line-height: 1.4;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.boundary-second-header {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.56px;
+  line-height: 1.44;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.boundary-image-div {
+  transition: transform 0.2s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.button-position-main {
+  display: flex;
+  align-items: center;
+  gap: 358px;
+  position: absolute;
+  bottom: 76px;
+  left: 456px;
+}
+
+

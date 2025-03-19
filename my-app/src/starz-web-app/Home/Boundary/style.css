@@ -5,6 +5,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-color: transparent;
+  padding-top: 60px;
 }
 
 .boundary-header {
@@ -40,6 +41,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .boundary-card-align {
@@ -58,7 +60,8 @@
 
 .add-boundary-flex {
   display: flex;
-  gap: 500px;
+  align-items: center;
+  justify-content: center;
 }
 
 .boundary-image-card-title {
@@ -73,8 +76,10 @@
   text-decoration: none;
   cursor: pointer;
   transition: opacity 0.5s, color 0.5s;
+  padding-bottom: 8px;
+  text-align: center;
   &:hover {
-    opacity: 0.5;
+    opacity: 0.6;
   }
 }
 
@@ -84,6 +89,8 @@
   line-height: 24px;
   letter-spacing: 1px;
   font-weight: 400;
+  padding-bottom: 16px;
+  text-align: center;
 }
 
 .learn-more {
@@ -100,11 +107,10 @@
   }
 }
 
-.hero-trailer-main {
+.hero-trailer-boundary {
   cursor: pointer;
   display: flex;
   align-items: center;
-  margin-top: 8px;
 }
 
 .demand-video {
@@ -117,6 +123,14 @@
 .trailer-text-sml {
   text-decoration: none;
   cursor: pointer;
+}
+
+.boundary-bottom-description-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 40%; */
+  margin-top: 24px;
 }
 
 .trailer-text-sml span {
@@ -132,4 +146,41 @@
     color: #d1d3d4;
     transition: color 0.1s ease-in-out;
   }
+}
+
+.boundary-scroll-image {
+  border-radius: 3px;
+}
+
+.boundary-first-header {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.25px;
+  line-height: 1.4;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.boundary-second-header {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.56px;
+  line-height: 1.44;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.boundary-image-div {
+  transition: transform 0.2s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.add-pct-arrow {
+  display: flex;
+  align-items: center;
+  gap: 400px;
+  position: absolute;
+  bottom: 34px;
 }
