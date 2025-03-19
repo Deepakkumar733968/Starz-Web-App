@@ -1,4 +1,5 @@
 import { BoldOriginals } from "./BoldOriginals/BoldOriginals";
+import { Boundary } from "./Boundary/Boundary";
 import { ComingSoon } from "./ComingSoon/ComingSoon";
 import { Footer } from "./Footer/Footer";
 import { HeaderImage } from "./HeaderImage/HeaderImage";
@@ -11,6 +12,7 @@ const Home = () => {
     <>
       <NavBar />
       <HeaderImage />
+      <Boundary />
       <MoviesToday />
       <ComingSoon />
       <SignUpBanner />

@@ -1,0 +1,57 @@
+.boundary-main {
+  background: #000
+    url(https://static-web-images.imgix.net/web-images/common/background-no-image-1440.jpg?auto=compress,format)
+    no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: transparent;
+}
+
+.boundary-header {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.handle-header {
+  color: #d1d3d4;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.boundary-arrow-button {
+  display: block;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.boundary-sec-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boundary-card-align {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+.add-boundary-flex {
+  display: flex;
+  gap: 500px;
+}
