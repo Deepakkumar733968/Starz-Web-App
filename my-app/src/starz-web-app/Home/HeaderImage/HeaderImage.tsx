@@ -1,10 +1,10 @@
 import "./style.css";
-import { MdOndemandVideo } from "react-icons/md";
-import StarzButton from "../../../components/Button/StarzButton";
-import { HEADER_IMAGE_DATA, IHeaderImage } from "../../../contents/HeaderImage";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
+import { HEADER_IMAGE_DATA, IHeaderImage } from "../../../contents/HeaderImage";
+import StarzButton from "../../../components/Button/StarzButton";
+import { MdArrowBackIosNew } from "react-icons/md";
+import { MdArrowForwardIos } from "react-icons/md";
 export const HeaderImage = () => {
   return (
     <section>
@@ -15,6 +15,28 @@ export const HeaderImage = () => {
         showThumbs={false}
         showStatus={false}
         interval={5000}
+        renderArrowPrev={(onClickHandler, hasPrev) =>
+          hasPrev && (
+            <button
+              type="button"
+              onClick={onClickHandler}
+              className="custom-arrow custom-arrow-prev"
+            >
+              <MdArrowBackIosNew />
+            </button>
+          )
+        }
+        renderArrowNext={(onClickHandler, hasNext) =>
+          hasNext && (
+            <button
+              type="button"
+              onClick={onClickHandler}
+              className="custom-arrow custom-arrow-next"
+            >
+              <MdArrowForwardIos />
+            </button>
+          )
+        }
       >
         {HEADER_IMAGE_DATA.map((item: IHeaderImage, index: number) => (
           <div className="header-image-div" key={index}>
@@ -36,7 +58,6 @@ export const HeaderImage = () => {
               </div>
               {item.trailer && (
                 <div className="hero-trailer-main">
-                  <MdOndemandVideo className="demand-video" />
                   <a href={item.buttonLink} className="trailer-text-sml">
                     <span>TRAILER</span>
                   </a>
