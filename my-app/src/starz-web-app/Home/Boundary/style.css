@@ -49,9 +49,87 @@
   width: 100%;
   max-width: 100%;
   overflow-x: scroll;
+  scrollbar-width: none;
+  position: relative;
+  overscroll-behavior: contain;
+  user-select: none;
+  gap: 10px;
 }
 
 .add-boundary-flex {
   display: flex;
   gap: 500px;
+}
+
+.boundary-image-card-title {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1.125px;
+  font-weight: 400;
+  text-transform: none;
+  opacity: 1;
+  pointer-events: inherit;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.5s, color 0.5s;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.boundary-image-card-description {
+  color: #d1d3d4;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.learn-more {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.25;
+  margin-left: 4px;
+  transition: opacity 0.5s, color 0.5s;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.hero-trailer-main {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.demand-video {
+  width: 27px;
+  height: 27px;
+  color: rgb(210, 255, 0);
+  padding-right: 8px;
+}
+
+.trailer-text-sml {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.trailer-text-sml span {
+  letter-spacing: 2px;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  &:hover {
+    color: #d1d3d4;
+    transition: color 0.1s ease-in-out;
+  }
 }

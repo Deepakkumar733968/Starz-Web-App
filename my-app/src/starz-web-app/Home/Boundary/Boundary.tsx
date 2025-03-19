@@ -4,7 +4,11 @@ import {
   IBoundaryData,
 } from "../../../contents/boundary";
 import "./style.css";
-import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
+import {
+  MdArrowBackIos,
+  MdArrowForwardIos,
+  MdOndemandVideo,
+} from "react-icons/md";
 export const Boundary = () => {
   return (
     <section className="boundary-main">
@@ -42,6 +46,25 @@ export const Boundary = () => {
           <button className="boundary-arrow-button">
             <MdArrowBackIos />
           </button>
+          <div>
+            <a href="" className="boundary-image-card-title">
+              BMF
+            </a>
+            <p className="boundary-image-card-description">
+              “BMF” follows the story of two brothers who created the “Black
+              Mafia Family,” the most prominent drug distribution network in
+              American history.
+              <a href="" className="learn-more">
+                LEARN MORE
+              </a>
+            </p>
+            <div className="hero-trailer-main">
+              <MdOndemandVideo className="demand-video" />
+              <a href="" className="trailer-text-sml">
+                <span>TRAILER</span>
+              </a>
+            </div>
+          </div>
           <button className="boundary-arrow-button">
             <MdArrowForwardIos />
           </button>
