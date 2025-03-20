@@ -35,7 +35,7 @@ export const HEADER_IMAGE_DATA = [
     buttonLink: "",
     trailer: false,
     movieHeader: false,
-    style: { top: "60px", left: "100px" },
+    style: { top: "120px", left: "100px" },
   },
   {
     heroImage:
