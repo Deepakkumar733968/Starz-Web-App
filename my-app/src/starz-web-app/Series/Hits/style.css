@@ -1,0 +1,41 @@
+.hits-main {
+  width: 100%;
+  max-height: 300px;
+  min-height: 300px;
+  background: url(https://static-web-images.imgix.net/marketing-pagelets/rebrand-pagelet-top-bg.jpg?w=1700&fit=max&auto=compress,format);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hits-text-align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 114px;
+  padding-bottom: 66px;
+}
+
+.hits-header {
+  margin-bottom: 5px;
+  padding: 0;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 1.875rem;
+  line-height: 38px;
+  letter-spacing: 1.875px;
+  font-weight: 600;
+  font-family: Averta, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.hits-des {
+  color: #fff;
+  opacity: 0.5;
+  padding: 0 15px 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  opacity: 1;
+}
