@@ -12,8 +12,13 @@ import {
   thirdList,
 } from "../../../contents/footer";
 
+export interface IFooterList {
+  link: string;
+  text: string;
+}
+
 export const Footer = () => {
-  const renderFooterList = (item: any, index: any) => (
+  const renderFooterList = (item: IFooterList, index: number) => (
     <li className="footer-list " key={index}>
       <a href={item.link} className="footer-link">
         {item.text}

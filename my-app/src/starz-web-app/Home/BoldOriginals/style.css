@@ -4,10 +4,6 @@
   font-family: Averta, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-/* section {
-  background-color: rgb(10, 35, 40);
-} */
-
 .bold-main {
   background-image: linear-gradient(
       to right,
@@ -19,7 +15,6 @@
   display: flex;
   align-items: center;
   background-color: transparent;
-  /* margin-top: 60px; */
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;

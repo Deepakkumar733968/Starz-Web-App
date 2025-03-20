@@ -4,7 +4,7 @@ import { ComingSoon } from "./ComingSoon/ComingSoon";
 import { Footer } from "./Footer/Footer";
 import { HeaderImage } from "./HeaderImage/HeaderImage";
 import { MoviesToday } from "./MoviesToday/MoviesToday";
-import NavBar from "./NavBar/NavBar";
+import { NavBar } from "./NavBar/NavBar";
 import { SignUpBanner } from "./SignUpBanner/SignUpBanner";
 import "./style.css";
 const Home = () => {

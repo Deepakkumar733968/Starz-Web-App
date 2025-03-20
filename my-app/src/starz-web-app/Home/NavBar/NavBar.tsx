@@ -15,7 +15,6 @@ export const NavBar = () => {
               alt="web-logo"
             />
           </div>
-
           <a href="" className="nav-list">
             HOME
           </a>
@@ -63,4 +62,3 @@ export const NavBar = () => {
     </nav>
   );
 };
-export default NavBar;
