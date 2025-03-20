@@ -9,7 +9,7 @@ const StarzWebApp = () => {
     <BrowserRouter>
       <main>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/series" element={<Series />} />
           <Route path="*" element={<Error />} />
         </Routes>
