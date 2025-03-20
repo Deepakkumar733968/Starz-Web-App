@@ -1,0 +1,112 @@
+.movies-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 48px;
+  background: #000
+    url(https://static-web-images.imgix.net/web-images/common/background-no-image-1440.jpg?auto=compress,format)
+    no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.movie-card-image {
+  width: 100%;
+  max-width: 820px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  mask-image: linear-gradient(270deg, red 0, red 35%, rgba(255, 0, 0, 0));
+  mask-repeat: no-repeat;
+  mask-size: cover;
+}
+
+.movie-min-img {
+  width: 100%;
+  max-width: 183px;
+  height: auto;
+  aspect-ratio: 72 / 41;
+  object-fit: cover;
+  display: block;
+}
+
+.movie-des-align {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+  text-transform: none;
+  text-transform: capitalize;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.movie-des {
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.57;
+  color: #fff;
+}
+
+.movie-des-box {
+  border: 0.5px solid hsla(0, 0%, 100%, 0.25);
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 4px 6px;
+  height: 100%;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.movie-card-detail {
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #d1d3d4;
+  margin-bottom: 16px;
+}
+
+.mov-lis-ict {
+  width: 30px;
+  height: 30px;
+  color: #d2ff00;
+}
+
+.add-m-p {
+  margin-left: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.mov-lis-des {
+  margin-left: 10px;
+  margin-right: 35px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.56px;
+  line-height: 1.44;
+  text-transform: uppercase;
+  color: #fff;
+  &:hover {
+    opacity: 0.8;
+    transition: opacity 0.25s ease-in-out;
+  }
+}
+
+.mov-and-icn {
+  display: flex;
+  align-items: center;
+}
+
+.mov-and-icn-align {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
