@@ -1,3 +1,11 @@
+.shows-main {
+  background: #000
+    url(https://static-web-images.imgix.net/web-images/common/background-no-image-1440.jpg?auto=compress,format)
+    no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .shows-header-align {
   display: flex;
   justify-content: space-between;
@@ -46,6 +54,7 @@
   position: relative;
   width: 98%;
   margin: 0 auto;
+  padding-bottom: 60px;
 }
 
 .add-button-pad-one {
