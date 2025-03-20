@@ -1,0 +1,19 @@
+.tv-shows-main {
+  background: #000
+    url(https://static-web-images.imgix.net/web-images/common/background-no-image-1440.jpg?auto=compress,format)
+    no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.tv-shows-header {
+  margin-left: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 0;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 60px;
+  line-height: 68px;
+  letter-spacing: 3.75px;
+  font-weight: 300;
+}

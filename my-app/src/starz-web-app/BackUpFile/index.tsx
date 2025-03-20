@@ -741,3 +741,97 @@ export const Boundary = () => {
 }
 
 
+/////
+
+
+import { ImageCard } from "../../../components/ImageCard/ImageCard";
+import { ORIGINALS } from "../../../contents/tvShows";
+import "./style.css";
+export const TVShows = () => {
+  return (
+    <div>
+      <div>
+        {/*  */}
+        <div className="shows-header-align">
+          <a href="" className="remove-und">
+            <h2 className="originals-sup-header">Originals & Exclusives</h2>
+          </a>
+          <a href="" className="view-all-link">
+            View All
+          </a>
+        </div>
+        {/*  */}
+        <div className="shows-cards-align">
+          {ORIGINALS.map((item, index) => (
+            <ImageCard
+              key={index}
+              link={item.link}
+              firstHeader={item.title}
+              secondHeader={""}
+              imageUrl={item.image}
+              className=""
+              headerStyle={{
+                gap: "80px",
+                width: "200px",
+                top: "80px",
+                marginRight: "4px",
+              }}
+              imageSize={{ width: "325", height: "181" }}
+              imageDivClass="today-div"
+              imageClass=""
+              firstHeaderClass="today-header"
+              secondHeaderClass=""
+              newTextClass=""
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+
+
+.remove-und {
+  text-transform: none;
+  text-decoration: none;
+}
+.originals-sup-header {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1.125px;
+  font-weight: 400;
+}
+
+.view-all-link {
+  font-size: 14px;
+  letter-spacing: 0.88px;
+  line-height: 1.29;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: color 0.25s;
+  color: #fff;
+  text-wrap: nowrap;
+  align-self: flex-end;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: #d1d3d4;
+  }
+}
+
+.shows-header-align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px 5px 20px;
+}
+
+.shows-cards-align {
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
