@@ -94,15 +94,16 @@
   line-height: 1.44;
   text-transform: uppercase;
   color: #fff;
-  &:hover {
-    opacity: 0.8;
-    transition: opacity 0.25s ease-in-out;
-  }
 }
 
 .mov-and-icn {
   display: flex;
   align-items: center;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+    transition: opacity 0.25s ease-in-out;
+  }
 }
 
 .mov-and-icn-align {

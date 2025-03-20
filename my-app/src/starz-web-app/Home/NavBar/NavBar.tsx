@@ -25,9 +25,9 @@ export const NavBar = () => {
           <Link to="/movies" className="nav-list">
             Movies
           </Link>
-          <a href="" className="nav-list">
+          <Link to="/movies-detail" className="nav-list">
             Schedule
-          </a>
+          </Link>
           <div>
             <a href="" className="nav-list search-main">
               <span className="search-span">
