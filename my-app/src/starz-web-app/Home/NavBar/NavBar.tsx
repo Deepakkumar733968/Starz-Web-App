@@ -1,4 +1,5 @@
 import "./style.css";
+import { Link } from "react-router-dom";
 import { FiSearch } from "react-icons/fi";
 import { IoIosArrowDown } from "react-icons/io";
 import StarzButton from "../../../components/Button/StarzButton";
@@ -15,12 +16,12 @@ export const NavBar = () => {
               alt="web-logo"
             />
           </div>
-          <a href="" className="nav-list">
+          <Link to="/home" className="nav-list">
             HOME
-          </a>
-          <a href="" className="nav-list">
+          </Link>
+          <Link to="/series" className="nav-list">
             Series
-          </a>
+          </Link>
           <a href="" className="nav-list">
             Movies
           </a>
