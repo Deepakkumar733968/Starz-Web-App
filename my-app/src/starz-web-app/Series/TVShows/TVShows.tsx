@@ -2,9 +2,9 @@ import { useRef, useState, useEffect } from "react";
 import { ImageCard } from "../../../components/ImageCard/ImageCard";
 import "./style.css";
 import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
-import { ITVShows, ORIGINALS } from "../../../contents/tvShows";
+import { ITVShows } from "../../../contents/tvShows";
 
-export const TVShows = () => {
+export const TVShows = ({ movieData }: { movieData: ITVShows[] }) => {
   const scrollRef = useRef<HTMLDivElement | null>(null);
   const [showLeftArrow, setShowLeftArrow] = useState(false);
   const [showRightArrow, setShowRightArrow] = useState(true);
@@ -64,7 +64,7 @@ export const TVShows = () => {
               <MdArrowBackIos className="button-icon" />
             </button>
             <div className="coming-image-card-main" ref={scrollRef}>
-              {ORIGINALS.map((item: ITVShows, index: number) => (
+              {movieData.map((item: ITVShows, index: number) => (
                 <ImageCard
                   key={index}
                   link={item.link}
