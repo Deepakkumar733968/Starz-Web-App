@@ -3,7 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { HEADER_IMAGE_DATA, IHeaderImage } from "../../../contents/HeaderImage";
 import StarzButton from "../../../components/Button/StarzButton";
-import { MdArrowBackIosNew } from "react-icons/md";
+import { MdArrowBackIosNew, MdOndemandVideo } from "react-icons/md";
 import { MdArrowForwardIos } from "react-icons/md";
 export const HeaderImage = () => {
   return (
@@ -57,8 +57,9 @@ export const HeaderImage = () => {
                 />
               </div>
               {item.trailer && (
-                <div className="hero-trailer-main">
-                  <a href={item.buttonLink} className="trailer-text-sml">
+                <div className="hero-trailer-boundary">
+                  <MdOndemandVideo className="demand-video" />
+                  <a href="" className="trailer-text-sml">
                     <span>TRAILER</span>
                   </a>
                 </div>
