@@ -61,7 +61,7 @@ export const TVShows = ({
               View All
             </a>
           </div>
-          <div className="side-button-main">
+          <div className="side-button-tv-show">
             <button
               className={`add-button-pad-one add-hover-arrow ${
                 showLeftArrow ? "" : "no-show-button"
