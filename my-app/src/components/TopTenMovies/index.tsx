@@ -61,23 +61,26 @@ export const TopTenMovies = ({
   };
 
   return (
-    <section className="coming-soon-main">
-      <div className="side-button-main">
+    <section className="coming-soon-main-top">
+      <div className="side-button-main-top">
         <div className={`${className}header-image`}>
-          <h2 className="coming-soon-header">STARZ Top 10 Movies Today</h2>
-          <div className="side-button-main">
-            <button className="add-button-pad" onClick={() => scroll("left")}>
+          <h2 className="coming-soon-header-top">STARZ Top 10 Movies Today</h2>
+          <div className="side-button-main-top">
+            <button
+              className="add-button-pad-top"
+              onClick={() => scroll("left")}
+            >
               <MdArrowBackIos
                 className={`${
                   showLeftArrow ? "button-icon" : "no-show-button"
                 }  ${leftButtonClass}`}
               />
             </button>
-            <div className="coming-image-card-main" ref={scrollRef}>
+            <div className="coming-image-card-main-top" ref={scrollRef}>
               {moviesData.map((item: ITopTenMovies, index: number) => (
-                <div className="today-card-main" key={index}>
-                  <div className="neon-container">
-                    <span className="neon-text">{item.numberImage} </span>
+                <div className="today-card-main-top" key={index}>
+                  <div className="neon-container-top">
+                    <span className="neon-text-top">{item.numberImage} </span>
                   </div>
                   <ImageCard
                     link={item.link}
@@ -102,7 +105,10 @@ export const TopTenMovies = ({
                 </div>
               ))}
             </div>
-            <button className="add-button-pad" onClick={() => scroll("right")}>
+            <button
+              className="add-button-pad-top"
+              onClick={() => scroll("right")}
+            >
               <MdArrowForwardIos
                 className={`${
                   showRightArrow ? "button-icon" : "no-show-button"

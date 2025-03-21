@@ -1,4 +1,4 @@
-.coming-soon-main {
+.coming-soon-main-top {
   background: #000
     url(https://static-web-images.imgix.net/web-images/common/background-no-image-1440.jpg?auto=compress,format)
     no-repeat;
@@ -16,7 +16,7 @@
   text-transform: uppercase;
 }
 
-.coming-image-card-main {
+.coming-image-card-main-top {
   width: 100%;
   overflow-y: hidden;
   overflow-x: scroll;
@@ -38,7 +38,7 @@
   margin-right: auto;
 }
 
-.coming-soon-header {
+.coming-soon-header-top {
   margin-left: 44px;
 }
 
@@ -50,7 +50,7 @@
   padding-top: 60px;
 }
 
-.add-button-pad {
+.add-button-pad-top {
   display: block;
   background: none;
   border: none;
@@ -59,7 +59,7 @@
   cursor: pointer;
 }
 
-.side-button-main {
+.side-button-main-top {
   display: flex;
   align-items: center;
 }
@@ -93,19 +93,19 @@
   text-transform: uppercase;
 }
 
-.today-card-main {
+.today-card-main-top {
   display: flex;
   align-items: center;
   margin-right: 10px;
 }
 
-.neon-container {
+.neon-container-top {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.neon-text {
+.neon-text-top {
   font-size: 260px;
   font-weight: bold;
   color: rgb(19, 80, 90);
