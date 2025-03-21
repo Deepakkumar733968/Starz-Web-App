@@ -29,10 +29,10 @@
 .left-detail-main {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   gap: 20px;
   max-width: 600px;
   padding-left: 48px;
+  padding-top: 60px;
 }
 
 .mov-des-one {
