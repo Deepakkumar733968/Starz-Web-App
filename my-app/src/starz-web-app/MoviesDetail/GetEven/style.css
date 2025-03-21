@@ -29,3 +29,17 @@
   font-weight: 400;
   color: #d1d3d4;
 }
+
+.movies-detail-header {
+  margin-left: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding-top: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 60px;
+  line-height: 68px;
+  letter-spacing: 3.75px;
+  font-weight: 300;
+}

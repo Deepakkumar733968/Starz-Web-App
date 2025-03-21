@@ -1,5 +1,7 @@
+import { ORIGINALS } from "../../contents/tvShows";
 import { Footer } from "../Home/Footer/Footer";
 import { NavBar } from "../Home/NavBar/NavBar";
+import { TVShows } from "../Series/TVShows/TVShows";
 import { Cast } from "./Cast/Cast";
 import { DetailImgHeader } from "./DetailImgHeader/DetailImgHeader";
 import { GetEven } from "./GetEven/GetEven";
@@ -10,7 +12,7 @@ const MovieDetail = () => {
       <NavBar isList={false} />
       <DetailImgHeader />
       <Cast />
-      <h1>Others Also Watched</h1>
+      <TVShows movieData={ORIGINALS} title={"Originals & Exclusives"} />
       <GetEven />
       <Footer />
     </main>
