@@ -56,12 +56,12 @@ export const TVShows = () => {
           </div>
           <div className="side-button-main">
             <button
-              className="add-button-pad-one add-hover-arrow"
+              className={`add-button-pad-one add-hover-arrow ${
+                showLeftArrow ? "" : "no-show-button"
+              }`}
               onClick={() => scroll("left")}
             >
-              <MdArrowBackIos
-                className={showLeftArrow ? "button-icon" : "no-show-button"}
-              />
+              <MdArrowBackIos className="button-icon" />
             </button>
             <div className="coming-image-card-main" ref={scrollRef}>
               {ORIGINALS.map((item: ITVShows, index: number) => (
@@ -88,71 +88,16 @@ export const TVShows = () => {
               ))}
             </div>
             <button
-              className="add-button-pad-two add-hover-arrow"
+              className={`add-button-pad-two add-hover-arrow ${
+                showRightArrow ? "" : "no-show-button"
+              }`}
               onClick={() => scroll("right")}
             >
-              <MdArrowForwardIos
-                className={showRightArrow ? "button-icon" : "no-show-button"}
-              />
+              <MdArrowForwardIos className="button-icon" />
             </button>
           </div>
         </div>
       </div>
-      {/*  */}
-      {/* <div className="side-button-main">
-        <div className="tv-shows-align-main">
-          <div className="shows-header-align">
-            <a href="" className="remove-und">
-              <h2 className="originals-sup-header">Originals & Exclusives</h2>
-            </a>
-            <a href="" className="view-all-link">
-              View All
-            </a>
-          </div>
-          <div className="side-button-main">
-            <button
-              className="add-button-pad-one add-hover-arrow"
-              onClick={() => scroll("left")}
-            >
-              <MdArrowBackIos
-                className={showLeftArrow ? "button-icon" : "no-show-button"}
-              />
-            </button>
-            <div className="coming-image-card-main" ref={scrollRef}>
-              {ORIGINALS.map((item: ITVShows, index: number) => (
-                <ImageCard
-                  key={index}
-                  link={item.link}
-                  firstHeader={item.title}
-                  secondHeader={""}
-                  imageUrl={item.image}
-                  className=""
-                  headerStyle={{
-                    gap: "80px",
-                    width: "200px",
-                    top: "78px",
-                    left: "52px",
-                    marginLeft: "8px",
-                  }}
-                  imageSize={{ width: "325px", height: "181px" }}
-                  imageDivClass="today-div"
-                  imageClass="image-rad"
-                  firstHeaderClass="shows-title-header"
-                  secondHeaderClass=""
-                />
-              ))}
-            </div>
-            <button
-              className="add-button-pad-two add-hover-arrow"
-              onClick={() => scroll("right")}
-            >
-              <MdArrowForwardIos
-                className={showRightArrow ? "button-icon" : "no-show-button"}
-              />
-            </button>
-          </div>
-        </div>
-      </div> */}
     </section>
   );
 };

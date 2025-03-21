@@ -113,3 +113,6 @@
   line-height: 1.44;
   color: #fff;
 }
+.no-show-button {
+  display: none !important;
+}
