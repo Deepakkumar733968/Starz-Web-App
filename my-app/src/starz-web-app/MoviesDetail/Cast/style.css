@@ -1,0 +1,115 @@
+.cast-main {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 3rem;
+  display: block;
+  background: #000
+    url(https://static-web-images.imgix.net/web-images/common/background-no-image-1440.jpg?auto=compress,format)
+    no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cast-frd-div {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+}
+
+.cast-sec-div {
+  margin-bottom: 3rem !important;
+}
+
+.cast-sup-hrd {
+  text-transform: capitalize !important;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-left: 14px;
+}
+
+.align-car-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.align-car-list a {
+  color: #d1d3d4;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: block !important;
+  text-transform: capitalize !important;
+  margin-bottom: 1rem !important;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: #fff;
+    transition: color 0.2s ease-in-out;
+  }
+}
+
+.trd-sec-des {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.trd-sec-des-align-min {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.trd-sec-des-align-min h6 {
+  text-transform: capitalize !important;
+  margin-right: 0.5rem !important;
+  color: #fff;
+  /* margin-bottom: 0.5rem; */
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.trd-sec-des-align-min a {
+  color: #d1d3d4;
+  &:hover {
+    color: #fff;
+    transition: color 0.2s ease-in-out;
+  }
+}
+
+.see-all-cast {
+  border-radius: 4px;
+  height: 42px;
+  max-width: fit-content;
+  padding: 10px 15px;
+  width: fit-content;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #d1d3d4;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  outline: none;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+  margin-right: auto;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
