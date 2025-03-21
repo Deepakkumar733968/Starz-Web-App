@@ -1,0 +1,135 @@
+.coming-soon-main {
+  background: #000
+    url(https://static-web-images.imgix.net/web-images/common/background-no-image-1440.jpg?auto=compress,format)
+    no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 60px;
+}
+
+.coming-image-header {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.25px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.coming-image-card-main {
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  gap: 10px;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.header-image {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.coming-soon-header {
+  margin-left: 44px;
+}
+
+.image-rad {
+  border-radius: 5px;
+}
+
+.side-button {
+  padding-top: 60px;
+}
+
+.add-button-pad {
+  display: block;
+  background: none;
+  border: none;
+  color: #fff;
+  width: 3rem;
+  cursor: pointer;
+}
+
+.side-button-main {
+  display: flex;
+  align-items: center;
+}
+
+.button-icon {
+  font-size: 36px;
+  color: #fff;
+}
+
+.no-show-button {
+  opacity: 0;
+}
+
+.today-div {
+  transition: transform 0.2s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.today-card-scale {
+  border-radius: 3px;
+}
+
+.today-header {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.today-card-main {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.neon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.neon-text {
+  font-size: 260px;
+  font-weight: bold;
+  color: rgb(19, 80, 90);
+  -webkit-text-stroke: 3px rgb(66, 199, 199);
+  text-shadow: 0 0 4px #1cb4d8, 0 0 8px rgba(28, 180, 216, 0.7),
+    0 0 12px rgba(28, 180, 216, 0.5);
+  font-family: Arial, sans-serif;
+}
+
+.today-new-text {
+  height: 15px;
+  padding: 0 10px;
+  letter-spacing: 0.75px;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 1px 2px 0 rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(180deg, #c9e2b1 0, #1ad1d3 70%);
+  color: #000;
+  border-radius: 3px;
+  line-height: 1.25;
+}

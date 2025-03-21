@@ -1,0 +1,117 @@
+import { useRef, useState, useEffect } from "react";
+
+import "./style.css";
+import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
+import { ImageCard } from "../ImageCard/ImageCard";
+
+export interface ITopTenMovies {
+  numberImage: string;
+  movieImage: string;
+  link: string;
+  firstHeader: string;
+  secondHeader: string;
+  newText?: string;
+}
+export const TopTenMovies = ({
+  moviesData,
+  className,
+  leftButtonClass,
+  rightButtonClass,
+}: {
+  moviesData: ITopTenMovies[];
+  className: string;
+  leftButtonClass?: string;
+  rightButtonClass?: string;
+}) => {
+  const scrollRef = useRef<HTMLDivElement | null>(null);
+  const [showLeftArrow, setShowLeftArrow] = useState(false);
+  const [showRightArrow, setShowRightArrow] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (scrollRef.current) {
+        const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
+        setShowLeftArrow(scrollLeft > 0);
+        setShowRightArrow(scrollLeft + clientWidth < scrollWidth);
+      }
+    };
+
+    if (scrollRef.current) {
+      scrollRef.current.addEventListener("scroll", handleScroll);
+      handleScroll();
+    }
+
+    return () => {
+      if (scrollRef.current) {
+        scrollRef.current.removeEventListener("scroll", handleScroll);
+      }
+    };
+  }, []);
+
+  const scroll = (direction: "left" | "right") => {
+    if (scrollRef.current) {
+      const scrollAmount = 1000;
+
+      if (direction === "left") {
+        scrollRef.current.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+      } else {
+        scrollRef.current.scrollBy({ left: scrollAmount, behavior: "smooth" });
+      }
+    }
+  };
+
+  return (
+    <section className="coming-soon-main">
+      <div className="side-button-main">
+        <div className={`${className}header-image`}>
+          <h2 className="coming-soon-header">STARZ Top 10 Movies Today</h2>
+          <div className="side-button-main">
+            <button className="add-button-pad" onClick={() => scroll("left")}>
+              <MdArrowBackIos
+                className={`${
+                  showLeftArrow ? "button-icon" : "no-show-button"
+                }  ${leftButtonClass}`}
+              />
+            </button>
+            <div className="coming-image-card-main" ref={scrollRef}>
+              {moviesData.map((item: ITopTenMovies, index: number) => (
+                <div className="today-card-main" key={index}>
+                  <div className="neon-container">
+                    <span className="neon-text">{item.numberImage} </span>
+                  </div>
+                  <ImageCard
+                    link={item.link}
+                    firstHeader={item.firstHeader}
+                    secondHeader={item.secondHeader}
+                    imageUrl={item.movieImage}
+                    className=""
+                    headerStyle={{
+                      gap: "80px",
+                      width: "200px",
+                      top: "80px",
+                      marginRight: "4px",
+                    }}
+                    imageSize={{ width: "194px", height: "259px" }}
+                    imageDivClass="today-div"
+                    imageClass="today-card-scale"
+                    firstHeaderClass="today-header"
+                    secondHeaderClass="today-header"
+                    newText={item.newText}
+                    newTextClass="today-new-text"
+                  />
+                </div>
+              ))}
+            </div>
+            <button className="add-button-pad" onClick={() => scroll("right")}>
+              <MdArrowForwardIos
+                className={`${
+                  showRightArrow ? "button-icon" : "no-show-button"
+                } ${rightButtonClass}`}
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
