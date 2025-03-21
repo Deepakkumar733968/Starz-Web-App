@@ -139,13 +139,14 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   padding: 20px 30px;
   border-radius: 5px;
-  z-index: 2;
+  z-index: 20;
   display: flex;
   justify-content: center;
   align-items: center;
   width: fit-content;
   position: absolute;
-  top: 0;
+  left: 19%;
+  bottom: -98px;
 }
 
 .ui-list-del {

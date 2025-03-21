@@ -1,7 +1,6 @@
 import { MdOndemandVideo } from "react-icons/md";
 import "./style.css";
 import StarzButton from "../../../components/Button/StarzButton";
-// import { NavBar } from "../Home/NavBar/NavBar";
 import { Cast } from "../Cast/Cast";
 
 export const DetailImgHeader = () => {
@@ -45,7 +44,6 @@ export const DetailImgHeader = () => {
           className="right-img-pos"
         />
       </div>
-      {/* Ad-free streaming */}
       <div className="streaming-card-main">
         <div className="add-m-t-b">
           <ul className="ui-list-del">

@@ -13,11 +13,11 @@
 .cast-frd-div {
   display: flex;
   flex-direction: column;
-  /* text-align: center; */
 }
 
 .cast-sec-div {
   margin-bottom: 3rem !important;
+  padding-top: 80px;
 }
 
 .cast-sup-hrd {
@@ -74,7 +74,6 @@
   text-transform: capitalize !important;
   margin-right: 0.5rem !important;
   color: #fff;
-  /* margin-bottom: 0.5rem; */
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 1px;
