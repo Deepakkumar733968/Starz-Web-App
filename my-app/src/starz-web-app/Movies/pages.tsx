@@ -1,3 +1,5 @@
+import { TopTenMovies } from "../../components/TopTenMovies";
+import { MOVIES_TODAY_DATA } from "../../contents/moviesToday";
 import {
   ORIGINALS,
   POPULAR,
@@ -19,7 +21,11 @@ const Movies = () => {
         <h1 className="movies-card-header">Movies</h1>
         <TVShows movieData={ORIGINALS} title={"Leaving Soon"} />
         <TVShows movieData={WEEKEND} title={"Drama"} />
-        <TVShows movieData={ORIGINALS} title={"STARZ Top 10 Movies"} />
+        <TopTenMovies
+          moviesData={MOVIES_TODAY_DATA}
+          className={""}
+          title={"STARZ Top 10 Movies"}
+        />
         <TVShows movieData={POPULAR} title={"Action"} />
         <TVShows movieData={POWER_UNIVERSE} title={"Comedy"} />
         <TVShows movieData={WEEKEND} title={"Just Added"} />

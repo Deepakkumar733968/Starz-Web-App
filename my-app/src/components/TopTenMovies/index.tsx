@@ -17,11 +17,13 @@ export const TopTenMovies = ({
   className,
   leftButtonClass,
   rightButtonClass,
+  title,
 }: {
   moviesData: ITopTenMovies[];
   className: string;
   leftButtonClass?: string;
   rightButtonClass?: string;
+  title: string;
 }) => {
   const scrollRef = useRef<HTMLDivElement | null>(null);
   const [showLeftArrow, setShowLeftArrow] = useState(false);
@@ -64,15 +66,17 @@ export const TopTenMovies = ({
     <section className="coming-soon-main-top">
       <div className="side-button-main-top">
         <div className={`${className}header-image`}>
-          <h2 className="coming-soon-header-top">STARZ Top 10 Movies Today</h2>
+          <h2 className="coming-soon-header-top">{title}</h2>
           <div className="side-button-main-top">
             <button
-              className="add-button-pad-top"
+              className="add-button-pad-top-one"
               onClick={() => scroll("left")}
             >
               <MdArrowBackIos
                 className={`${
-                  showLeftArrow ? "button-icon" : "no-show-button"
+                  showLeftArrow
+                    ? "button-icon add-hover-arrow-top"
+                    : "no-show-button"
                 }  ${leftButtonClass}`}
               />
             </button>
@@ -106,12 +110,14 @@ export const TopTenMovies = ({
               ))}
             </div>
             <button
-              className="add-button-pad-top"
+              className="add-button-pad-top-two"
               onClick={() => scroll("right")}
             >
               <MdArrowForwardIos
                 className={`${
-                  showRightArrow ? "button-icon" : "no-show-button"
+                  showRightArrow
+                    ? "button-icon add-hover-arrow-top"
+                    : "no-show-button"
                 } ${rightButtonClass}`}
               />
             </button>

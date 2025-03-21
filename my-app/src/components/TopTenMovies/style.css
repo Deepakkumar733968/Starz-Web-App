@@ -33,13 +33,37 @@
 }
 
 .header-image {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+}
+
+.add-hover-arrow-top {
+  width: 42px;
+  height: 42px;
+  border-radius: 38px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #082125;
+  transition: transform 0.25s ease-in-out;
+  z-index: 61;
+  pointer-events: all;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  max-width: 38px;
+  max-height: 38px;
 }
 
 .coming-soon-header-top {
   margin-left: 44px;
+  text-transform: none;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1.125px;
+  font-weight: 400;
+  color: #fff;
 }
 
 .image-rad {
@@ -50,13 +74,27 @@
   padding-top: 60px;
 }
 
-.add-button-pad-top {
+.add-button-pad-top-one {
   display: block;
   background: none;
   border: none;
   color: #fff;
   width: 3rem;
   cursor: pointer;
+  position: absolute;
+  z-index: 3;
+}
+
+.add-button-pad-top-two {
+  display: block;
+  background: none;
+  border: none;
+  color: #fff;
+  width: 3rem;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  z-index: 3;
 }
 
 .side-button-main-top {
