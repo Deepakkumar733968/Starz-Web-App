@@ -2,7 +2,13 @@ import { MdOndemandVideo } from "react-icons/md";
 import "./style.css";
 import StarzButton from "../../../components/Button/StarzButton";
 
-export const DetailImgHeader = ({ movieTitle }: { movieTitle: string }) => {
+export const DetailImgHeader = ({
+  movieTitle,
+  movieImage,
+}: {
+  movieTitle: string;
+  movieImage: string;
+}) => {
   return (
     <section className="movie-detail-main">
       <div className="right-and-left-main">
@@ -38,7 +44,7 @@ export const DetailImgHeader = ({ movieTitle }: { movieTitle: string }) => {
           </p>
         </div>
         <img
-          src="https://stz1.imgix.net/web/contentId/23841/type/background/lang/en-US?fit=max&auto=format,compress&w=1500"
+          src={movieImage}
           alt="detail-right-img"
           className="right-img-pos"
         />

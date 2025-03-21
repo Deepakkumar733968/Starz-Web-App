@@ -20,7 +20,13 @@ const MovieDetail = () => {
   return (
     <main>
       <NavBar isList={false} />
-      <DetailImgHeader movieTitle={movie?.movieTitle || "Jab"} />
+      <DetailImgHeader
+        movieTitle={movie?.movieTitle || "Jab"}
+        movieImage={
+          movie?.movieImage ||
+          "https://stz1.imgix.net/web/contentId/43831/type/background/lang/en-US?fit=max&auto=format,compress&w=1500"
+        }
+      />
       <Cast />
       <TVShows movieData={ORIGINALS} title={"Originals & Exclusives"} />
       <GetEven />
