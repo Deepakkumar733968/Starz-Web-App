@@ -3,6 +3,7 @@ import { ImageCard } from "../../../components/ImageCard/ImageCard";
 import "./style.css";
 import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 import { ITVShows } from "../../../contents/tvShows";
+import { Link } from "react-router-dom";
 
 export const TVShows = ({
   movieData,
@@ -71,26 +72,27 @@ export const TVShows = ({
             </button>
             <div className="coming-image-card-main" ref={scrollRef}>
               {movieData.map((item: ITVShows, index: number) => (
-                <ImageCard
-                  key={index}
-                  link={item.link}
-                  firstHeader={item.title}
-                  secondHeader={""}
-                  imageUrl={item.image}
-                  className=""
-                  headerStyle={{
-                    gap: "80px",
-                    width: "200px",
-                    top: "78px",
-                    left: "52px",
-                    marginLeft: "8px",
-                  }}
-                  imageSize={{ width: "325px", height: "181px" }}
-                  imageDivClass="today-div"
-                  imageClass="image-rad"
-                  firstHeaderClass="shows-title-header"
-                  secondHeaderClass=""
-                />
+                <Link to={`/movies/${item.id}`} key={index}>
+                  <ImageCard
+                    firstHeader={item.title}
+                    secondHeader=""
+                    imageUrl={item.image}
+                    className=""
+                    headerStyle={{
+                      gap: "80px",
+                      width: "200px",
+                      top: "78px",
+                      left: "52px",
+                      marginLeft: "8px",
+                    }}
+                    imageSize={{ width: "325px", height: "181px" }}
+                    imageDivClass="today-div"
+                    imageClass="image-rad"
+                    firstHeaderClass="shows-title-header"
+                    secondHeaderClass=""
+                    link={""}
+                  />
+                </Link>
               ))}
             </div>
             <button

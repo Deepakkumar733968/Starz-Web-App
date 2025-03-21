@@ -2,7 +2,7 @@ import { MdOndemandVideo } from "react-icons/md";
 import "./style.css";
 import StarzButton from "../../../components/Button/StarzButton";
 
-export const DetailImgHeader = () => {
+export const DetailImgHeader = ({ movieTitle }: { movieTitle: string }) => {
   return (
     <section className="movie-detail-main">
       <div className="right-and-left-main">
@@ -13,7 +13,7 @@ export const DetailImgHeader = () => {
             alt="movie-detail-image"
             className="mov-min-left-img"
           />
-          <h1 className="mov-des-one">Blue Streak</h1>
+          <h1 className="mov-des-one">{movieTitle}</h1>
           <div className="movie-des-align">
             <h6 className="movie-des movie-des-box">r</h6>
             <h6 className="movie-des">2h 33m</h6>

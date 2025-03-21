@@ -14,7 +14,7 @@ const StarzWebApp = () => {
           <Route path="/" element={<Home />} />
           <Route path="/series" element={<Series />} />
           <Route path="/movies" element={<Movies />} />
-          <Route path="/movies-detail" element={<MovieDetail />} />
+          <Route path="/movies/:id" element={<MovieDetail />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </main>
