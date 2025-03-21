@@ -28,7 +28,7 @@ export const NavBar = ({ isList = true }) => {
             <Link to="/movies" className="nav-list">
               Movies
             </Link>
-            <Link to="/movies-detail" className="nav-list">
+            <Link to={"#"} className="nav-list">
               Schedule
             </Link>
             <div>
