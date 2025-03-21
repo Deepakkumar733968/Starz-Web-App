@@ -984,260 +984,260 @@ export const POPULAR: ITVShows[] = [
   },
 ];
 
-// export const PowerUniverse: ITVShows[] = [
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/21220/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/58002/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/58458/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/62261/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/57416/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/62589/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/21220/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/58002/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/58458/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/62261/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/57416/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/62589/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/21220/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/58002/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/58458/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/62261/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/57416/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/62589/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/21220/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/58002/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/58458/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/62261/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/57416/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/62589/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/21220/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/58002/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/58458/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/62261/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/57416/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/62589/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/21220/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/58002/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/58458/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/62261/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/57416/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/62589/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/21220/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/58002/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/58458/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/62261/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/57416/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-//   {
-//     title: "More Info",
-//     image:
-//       "https://stz1.imgix.net/web/contentId/62589/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
-//     link: "",
-//   },
-// ];
+export const POWER_UNIVERSE: ITVShows[] = [
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/21220/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/58002/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/58458/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/62261/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/57416/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/62589/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/21220/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/58002/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/58458/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/62261/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/57416/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/62589/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/21220/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/58002/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/58458/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/62261/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/57416/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/62589/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/21220/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/58002/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/58458/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/62261/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/57416/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/62589/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/21220/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/58002/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/58458/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/62261/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/57416/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/62589/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/21220/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/58002/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/58458/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/62261/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/57416/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/62589/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/21220/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/58002/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/58458/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/62261/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/57416/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+  {
+    title: "More Info",
+    image:
+      "https://stz1.imgix.net/web/contentId/62589/type/KEY/dimension/2560x1440/lang/en-US?fit=max&auto=format,compress&w=370",
+    link: "",
+  },
+];
 
 // export const CaptivatingDramas: ITVShows[] = [
 //   {

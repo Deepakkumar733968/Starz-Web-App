@@ -4,7 +4,13 @@ import "./style.css";
 import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 import { ITVShows } from "../../../contents/tvShows";
 
-export const TVShows = ({ movieData }: { movieData: ITVShows[] }) => {
+export const TVShows = ({
+  movieData,
+  title,
+}: {
+  movieData: ITVShows[];
+  title: string;
+}) => {
   const scrollRef = useRef<HTMLDivElement | null>(null);
   const [showLeftArrow, setShowLeftArrow] = useState(false);
   const [showRightArrow, setShowRightArrow] = useState(true);
@@ -48,7 +54,7 @@ export const TVShows = ({ movieData }: { movieData: ITVShows[] }) => {
         <div className="tv-shows-align-main">
           <div className="shows-header-align">
             <a href="" className="remove-und">
-              <h2 className="originals-sup-header">Originals & Exclusives</h2>
+              <h2 className="originals-sup-header">{title}</h2>
             </a>
             <a href="" className="view-all-link">
               View All
