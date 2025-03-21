@@ -9,11 +9,13 @@ export const NavBar = ({ isList = true }) => {
     <nav className="nav-main fade-in">
       <div className="nav-div-main">
         <div className="logo-container">
-          <img
-            className="web-logo-nav"
-            src="https://www.starz.com/assets/images/icons/starz-logo-glint.svg"
-            alt="web-logo"
-          />
+          <Link to="/">
+            <img
+              className="web-logo-nav"
+              src="https://www.starz.com/assets/images/icons/starz-logo-glint.svg"
+              alt="web-logo"
+            />
+          </Link>
         </div>
         {isList && (
           <div className="main-nav-list">
