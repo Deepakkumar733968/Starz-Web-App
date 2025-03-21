@@ -1,7 +1,6 @@
 import { MdOndemandVideo } from "react-icons/md";
 import "./style.css";
 import StarzButton from "../../../components/Button/StarzButton";
-import { Cast } from "../Cast/Cast";
 
 export const DetailImgHeader = () => {
   return (

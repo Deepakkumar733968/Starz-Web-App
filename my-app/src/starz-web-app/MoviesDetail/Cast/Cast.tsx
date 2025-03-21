@@ -1,4 +1,3 @@
-import StarzButton from "../../../components/Button/StarzButton";
 import "./style.css";
 export const Cast = () => {
   return (
