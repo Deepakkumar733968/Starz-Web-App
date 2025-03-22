@@ -99,4 +99,15 @@
   .nav-hamburger-menu {
     display: block;
   }
+
+  .nav-div-main {
+    margin: 0 26px;
+    padding: 10px 0;
+    height: 38px;
+  }
+
+  .web-logo-nav {
+    height: 29px;
+    width: auto;
+  }
 }
