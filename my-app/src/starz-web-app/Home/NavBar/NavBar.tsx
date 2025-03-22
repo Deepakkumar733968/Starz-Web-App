@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FiSearch } from "react-icons/fi";
 import { IoIosArrowDown } from "react-icons/io";
 import StarzButton from "../../../components/Button/StarzButton";
-
+import { GiHamburgerMenu } from "react-icons/gi";
 export const NavBar = ({ isList = true }) => {
   return (
     <nav className="nav-main fade-in">
@@ -63,6 +63,11 @@ export const NavBar = ({ isList = true }) => {
             }}
           />
         </div>
+        <GiHamburgerMenu
+          className="nav-hamburger-menu"
+          size={28}
+          color="white"
+        />
       </div>
     </nav>
   );

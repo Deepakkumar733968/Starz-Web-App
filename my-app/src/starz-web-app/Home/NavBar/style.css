@@ -82,3 +82,21 @@
   display: flex;
   align-items: center;
 }
+
+.nav-hamburger-menu {
+  display: none;
+}
+
+@media (max-width: 1269px) {
+  .link-button-main {
+    display: none;
+  }
+
+  .main-nav-list {
+    display: none;
+  }
+
+  .nav-hamburger-menu {
+    display: block;
+  }
+}
