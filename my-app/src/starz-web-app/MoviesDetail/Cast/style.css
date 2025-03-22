@@ -29,7 +29,6 @@
   line-height: 24px;
   letter-spacing: 1px;
   font-weight: 600;
-  margin-left: 14px;
 }
 
 .align-car-list {
@@ -43,7 +42,6 @@
   width: 100%;
   min-height: 1px;
   padding-right: 15px;
-  padding-left: 15px;
   display: block !important;
   text-transform: capitalize !important;
   margin-bottom: 1rem !important;

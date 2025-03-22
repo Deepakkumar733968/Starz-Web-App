@@ -4,6 +4,7 @@
     no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  padding-bottom: 28px;
 }
 .tv-shows-header {
   margin-left: 30px;

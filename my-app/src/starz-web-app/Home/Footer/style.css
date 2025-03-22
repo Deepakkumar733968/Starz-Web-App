@@ -47,6 +47,7 @@ a {
   letter-spacing: 0.75px;
   line-height: 1.67;
   margin-bottom: 8px;
+  text-align: left;
 }
 
 .first-section-header {
@@ -136,4 +137,28 @@ a {
 .web-logo {
   width: 128px;
   height: 29px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .footer-section-main {
+    width: 91%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-section-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .first-section {
+    align-items: center;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+}
+
+@media (max-width: 425px) {
 }

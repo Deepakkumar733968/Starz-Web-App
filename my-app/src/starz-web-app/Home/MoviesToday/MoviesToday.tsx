@@ -48,7 +48,7 @@ export const MoviesToday = () => {
   return (
     <section className="coming-soon-main">
       <div className="side-button-main">
-        <div className="header-image">
+        <div className="header-image-today">
           <h2 className="coming-soon-header">STARZ Top 10 Movies Today</h2>
           <div className="side-button-main">
             <button className="add-button-pad" onClick={() => scroll("left")}>

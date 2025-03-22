@@ -9,7 +9,7 @@ import MovieDetail from "./MoviesDetail/page";
 const StarzWebApp = () => {
   return (
     <BrowserRouter>
-      <main>
+      <main className="starz-web-app-main">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/series" element={<Series />} />

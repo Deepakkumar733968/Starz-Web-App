@@ -44,10 +44,10 @@ export const ComingSoon = () => {
 
   return (
     <section className="coming-soon-main">
-      <div className="side-button-main">
+      <div className="coming-side-button-main">
         <div className="header-image">
           <h2 className="coming-soon-header">Coming Soon</h2>
-          <div className="side-button-main">
+          <div className="coming-side-button-main">
             <button className="add-button-pad" onClick={() => scroll("left")}>
               <MdArrowBackIos
                 className={showLeftArrow ? "button-icon" : "no-show-button"}

@@ -13,3 +13,7 @@ h2 {
   margin-top: 15px;
   margin-bottom: 10px;
 }
+
+.starz-web-app-main {
+  overflow: hidden;
+}
