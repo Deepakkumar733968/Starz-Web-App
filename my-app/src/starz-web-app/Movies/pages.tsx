@@ -21,11 +21,12 @@ const Movies = () => {
         <h1 className="movies-card-header">Movies</h1>
         <TVShows movieData={ORIGINALS} title={"Leaving Soon"} />
         <TVShows movieData={WEEKEND} title={"Drama"} />
-        <TopTenMovies
+        <TVShows movieData={WEEKEND} title={"STARZ Top 10 Movies"} />
+        {/* <TopTenMovies
           moviesData={MOVIES_TODAY_DATA}
           className={""}
           title={"STARZ Top 10 Movies"}
-        />
+        /> */}
         <TVShows movieData={POPULAR} title={"Action"} />
         <TVShows movieData={POWER_UNIVERSE} title={"Comedy"} />
         <TVShows movieData={WEEKEND} title={"Just Added"} />

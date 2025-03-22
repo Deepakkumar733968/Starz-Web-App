@@ -65,7 +65,7 @@ export const TopTenMovies = ({
   return (
     <section className="coming-soon-main-top">
       <div className="side-button-main-top">
-        <div className={`${className}header-image`}>
+        <div className={`${className}header-image-today`}>
           <h2 className="coming-soon-header-top">{title}</h2>
           <div className="side-button-main-top">
             <button
