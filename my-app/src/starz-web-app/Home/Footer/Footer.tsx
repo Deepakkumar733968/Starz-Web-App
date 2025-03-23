@@ -11,6 +11,7 @@ import {
   sixthList,
   thirdList,
 } from "../../../contents/footer";
+import { Link } from "react-router-dom";
 
 export interface IFooterList {
   link: string;
@@ -101,11 +102,13 @@ export const Footer = () => {
       <div className="line">
         <div className="hr-line"></div>
         <div className="line-main-section">
-          <img
-            className="web-logo"
-            src="https://www.starz.com/assets/images/icons/starz-logo-glint.svg"
-            alt="web-logo"
-          />
+          <Link to="/">
+            <img
+              className="web-logo"
+              src="https://www.starz.com/assets/images/icons/starz-logo-glint.svg"
+              alt="web-logo"
+            />
+          </Link>
           <p>© 2025 STARZ</p>
         </div>
       </div>
