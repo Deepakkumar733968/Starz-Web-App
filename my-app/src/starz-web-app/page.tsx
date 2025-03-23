@@ -5,10 +5,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Error from "./Error/Error";
 import Movies from "./Movies/pages";
 import MovieDetail from "./MoviesDetail/page";
+import { ScrollToTop } from "../components/ScrollToTop/ScrollToTop";
 
 const StarzWebApp = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <main className="starz-web-app-main">
         <Routes>
           <Route path="/" element={<Home />} />
