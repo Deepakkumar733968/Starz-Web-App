@@ -116,3 +116,7 @@
 .no-show-button {
   display: none !important;
 }
+
+.tv-button-icon {
+  height: 36px;
+}
