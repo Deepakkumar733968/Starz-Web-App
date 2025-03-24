@@ -91,6 +91,9 @@
 }
 
 @media (max-width: 430px) {
+  .coming-soon-main {
+    padding-top: 40px !important;
+  }
   .header-image {
     width: 93%;
     margin: 0 auto;
