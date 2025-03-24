@@ -1,7 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import { ImageCard } from "../../../components/ImageCard/ImageCard";
 import "./style.css";
-import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 import { ITVShows } from "../../../contents/tvShows";
 import { Link } from "react-router-dom";
 
