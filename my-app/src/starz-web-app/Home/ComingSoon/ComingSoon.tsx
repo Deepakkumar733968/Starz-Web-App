@@ -46,14 +46,17 @@ export const ComingSoon = () => {
     <section className="coming-soon-main">
       <div className="coming-side-button-main">
         <div className="header-image">
-          <h2 className="coming-soon-header">Coming Soon</h2>
+          <h2 className="coming-soon-heading">Coming Soon</h2>
           <div className="coming-side-button-main">
-            <button className="add-button-pad" onClick={() => scroll("left")}>
+            <button
+              className="coming-add-button-pad"
+              onClick={() => scroll("left")}
+            >
               <MdArrowBackIos
                 className={showLeftArrow ? "button-icon" : "no-show-button"}
               />
             </button>
-            <div className="coming-image-card-main" ref={scrollRef}>
+            <div className="coming-image-card-main-soon" ref={scrollRef}>
               {COMING_SOON_DATA.map((item: IComingSoon, index: number) => (
                 <ImageCard
                   key={index}
@@ -69,14 +72,17 @@ export const ComingSoon = () => {
                     marginLeft: "8px",
                   }}
                   imageSize={{ width: "222px", height: "296px" }}
-                  imageDivClass=""
+                  imageDivClass="mob-image-size"
                   imageClass="image-rad"
                   firstHeaderClass="coming-image-header"
                   secondHeaderClass="coming-image-header"
                 />
               ))}
             </div>
-            <button className="add-button-pad" onClick={() => scroll("right")}>
+            <button
+              className="coming-add-button-pad"
+              onClick={() => scroll("right")}
+            >
               <MdArrowForwardIos
                 className={showRightArrow ? "button-icon" : "no-show-button"}
               />
