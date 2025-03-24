@@ -68,7 +68,10 @@ export const TVShows = ({
               }`}
               onClick={() => scroll("left")}
             >
-              <MdArrowBackIos className="button-icon" />
+              <img
+                src="https://res.cloudinary.com/dj5vt6lf5/image/upload/v1742792851/arrow-left_sis2fj.svg"
+                className="button-icon"
+              />
             </button>
             <div className="coming-image-card-main" ref={scrollRef}>
               {movieData.map((item: ITVShows, index: number) => (
@@ -101,7 +104,10 @@ export const TVShows = ({
               }`}
               onClick={() => scroll("right")}
             >
-              <MdArrowForwardIos className="button-icon" />
+              <img
+                src="https://res.cloudinary.com/dj5vt6lf5/image/upload/v1742792839/arrow-right_lnbqnh.svg"
+                className="button-icon"
+              />
             </button>
           </div>
         </div>
