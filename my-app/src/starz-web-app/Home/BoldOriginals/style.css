@@ -35,3 +35,17 @@ h4 {
   flex-direction: column;
   align-items: center;
 }
+
+@media (max-width: 430px) {
+  .text-sec h2 {
+    text-align: center;
+    width: 82%;
+  }
+
+  .text-sec h4 {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1.25px;
+    font-weight: 400;
+  }
+}

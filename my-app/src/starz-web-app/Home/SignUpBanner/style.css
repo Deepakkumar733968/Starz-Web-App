@@ -38,7 +38,6 @@
 
 .banner-description {
   font-size: 16px;
-  font-size: 1rem;
   line-height: 24px;
   letter-spacing: 1px;
   font-weight: normal;
@@ -83,4 +82,56 @@
 .banner-main-image {
   width: 100%;
   height: 100%;
+}
+
+@media (min-width: 431px) and (max-width: 1023px) {
+  .banner-description {
+    text-align: center;
+    width: 92%;
+  }
+}
+
+@media (max-width: 430px) {
+  .banner-description {
+    text-align: center;
+    width: 92%;
+  }
+
+  .banner-header-two {
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 1.875px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 44px;
+  }
+
+  .banner-header-four {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1.25px;
+    font-weight: 400;
+  }
+
+  .banner-description {
+    width: 82%;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+
+  .starz-button button {
+    width: 93vw !important;
+  }
+
+  .banner-imge-size {
+    width: 1026px !important;
+    height: auto;
+  }
+
+  .banner-main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
