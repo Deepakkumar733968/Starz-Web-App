@@ -111,3 +111,19 @@
     width: auto;
   }
 }
+
+@media (max-width: 430px) {
+  .web-logo-nav {
+    height: 21px;
+    vertical-align: middle;
+    width: auto;
+    position: relative;
+    left: -4px;
+  }
+
+  .nav-div-main {
+    padding: 10px 0 8px;
+    width: 92%;
+    margin: 0 auto;
+  }
+}
