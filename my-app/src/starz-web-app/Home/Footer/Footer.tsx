@@ -33,7 +33,7 @@ export const Footer = () => {
         <div className="first-section">
           <h3 className="footer-heading">Browse STARZ</h3>
           <div className="first-section-header">
-            <div>
+            <div className="add-tab-wid">
               <ul>
                 {firstList.map(renderFooterList)}
 
@@ -47,7 +47,7 @@ export const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="add-tab-wid">
               <ul>
                 {secondList.map(renderFooterList)}
 
@@ -61,7 +61,7 @@ export const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="add-tab-wid">
               <ul>
                 {thirdList.map(renderFooterList)}
 
@@ -79,15 +79,15 @@ export const Footer = () => {
         </div>
 
         <div className="second-section">
-          <div>
+          <div className="add-tab-wid">
             <h3 className="footer-heading">Get Started</h3>
             <ul>{fourthList.map(renderFooterList)}</ul>
           </div>
-          <div>
+          <div className="add-tab-wid">
             <h3 className="footer-heading">Help</h3>
             <ul>{fifthList.map(renderFooterList)}</ul>
           </div>
-          <div>
+          <div className="add-tab-wid">
             <h3 className="footer-heading">Company</h3>
             <ul>{sixthList.map(renderFooterList)}</ul>
             <div className="icons-align">
